@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class V005_Validator {
     public static void main(String[] args) {
+        //最大数组长度
+        int length；
+
         int[] arr1 = randomArray(10, 100);
         System.out.println(Arrays.toString(arr1));
     }
